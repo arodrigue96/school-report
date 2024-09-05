@@ -1,58 +1,58 @@
 // Datos de los estudiantes
-const nombresEstudiantes = ["Aniol", "Erik"];
-const apellidosEstudiantes = ["Rodriguez", "Riquelme"];
-const edadEstudiantes = [28, 26];
-const edadMedia = (28 + 26) / 2;
+const studentNames = ["Aniol", "Erik"];
+const studentLastNames = ["Rodriguez", "Riquelme"];
+const studentAges = [28, 26];
+const averageAge = (studentAges[0] + studentAges[1]) / 2;
 
 //Datos de los cursos ofrecidos
-const cursos = [
+const courses = [
   "Introducción a Python",
   "JavaScript para PRO",
   "TypeScript para Leyendas",
 ];
-const dificultad = ["básico", "intermedio", "avanzado"];
-const duracionHoras = [10, 20, 30];
+const difficulty = ["básico", "intermedio", "avanzado"];
+const durationHours = [10, 20, 30];
 
 console.log("INFORME DE LA ESCUELA\n\n");
 console.log("Cursos:");
 console.log(
   "- " +
-    cursos[0] +
+    courses[0] +
     " (nivel " +
-    dificultad[0] +
+    difficulty[0] +
     ", " +
-    duracionHoras[0] +
+    durationHours[0] +
     " horas)"
 );
 console.log(
   "- " +
-    cursos[1] +
+    courses[1] +
     " (nivel " +
-    dificultad[1] +
+    difficulty[1] +
     ", " +
-    duracionHoras[1] +
+    durationHours[1] +
     " horas)"
 );
 console.log(
   "- " +
-    cursos[2] +
+    courses[2] +
     " (nivel " +
-    dificultad[2] +
+    difficulty[2] +
     ", " +
-    duracionHoras[2] +
+    durationHours[2] +
     " horas)\n\n"
 );
 console.log("Alumnos:");
 console.log(
-  "- " + nombresEstudiantes[0],
-  apellidosEstudiantes[0] + ",",
-  edadEstudiantes[0],
+  "- " + studentNames[0],
+  studentLastNames[0] + ",",
+  studentAges[0],
   "años"
 );
 console.log(
-  "- " + nombresEstudiantes[1],
-  apellidosEstudiantes[1] + ",",
-  edadEstudiantes[1],
+  "- " + studentNames[1],
+  studentLastNames[1] + ",",
+  studentAges[1],
   "años\n\n"
 );
-console.log("Edad media de los alumnos:", edadMedia, "años");
+console.log("Edad media de los alumnos:", averageAge, "años");
