@@ -2,7 +2,7 @@
 const studentNames = ["Aniol", "Erik"];
 const studentLastNames = ["Rodriguez", "Riquelme"];
 const studentAges = [28, 26];
-const averageAge = (studentAges[0] + studentAges[1]) / 2;
+const averageAge = (studentAges[0] + studentAges[1]) / studentNames.length;
 
 //Datos de los cursos ofrecidos
 const courses = [
